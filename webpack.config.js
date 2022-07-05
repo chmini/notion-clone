@@ -24,7 +24,9 @@ module.exports = {
       template: path.resolve(__dirname, 'index.html'),
     }),
     new MiniCSSExtractPlugin(),
-    new DotenvPlugin(),
+    new DotenvPlugin({
+      systemvars: true,
+    }),
   ],
   devServer: {
     port: 4000,
