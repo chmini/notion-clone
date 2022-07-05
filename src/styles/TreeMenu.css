@@ -1,0 +1,49 @@
+.TreeMenuItem {
+  min-height: 27px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 2px 14px;
+}
+
+.TreeMenuItem.active {
+  background-color: #e8e7e4;
+  color: #000;
+  font-weight: 600;
+}
+
+.TreeMenuItem:hover {
+  cursor: pointer;
+  background-color: #e8e7e4;
+}
+
+.TreeMenuItem > .ButtonGroup {
+  display: none;
+  align-items: center;
+}
+
+.TreeMenuItem:hover > .ButtonGroup {
+  display: flex;
+}
+
+.TreeMenuItem > .ButtonGroup > .SmallButton {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2px;
+  margin-left: 3px;
+  border: 1px solid #bfbdbb;
+  border-radius: 2px;
+  color: #7b7a75;
+}
+
+.TreeMenuItem > .ButtonGroup > .SmallButton:hover {
+  background-color: #bfbdbb;
+}
+
+.TreeMenuItem > .title {
+  flex: 1 1 auto;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}

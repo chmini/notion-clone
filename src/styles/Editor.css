@@ -1,0 +1,28 @@
+.EditorTitle {
+  font-size: 3em;
+  font-weight: 600;
+  outline: none;
+  word-break: break-word;
+}
+
+.EditorTitle:empty:before {
+  content: attr(placeholder);
+  color: #7b7a75;
+  cursor: text;
+}
+
+.EditorContent {
+  width: 100%;
+  height: 70vh;
+  line-height: 1.5;
+  font-size: 1.2em;
+  margin-top: 40px;
+  border: none;
+  outline: none;
+}
+
+.EditorContent:empty:before {
+  content: attr(placeholder);
+  color: #7b7a75;
+  cursor: text;
+}

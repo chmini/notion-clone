@@ -1,0 +1,33 @@
+@import './reset.css';
+
+@import './NavSection.css';
+@import './Header.css';
+@import './TreeMenu.css';
+
+@import './MainSection.css';
+@import './Home.css';
+@import './Editor.css';
+@import './NotFound.css';
+
+.App {
+  display: flex;
+  font-size: 16px;
+  height: 100vh;
+}
+
+::-webkit-scrollbar {
+  background: transparent;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #d3d1cb;
+}
+
+::-webkit-scrollbar-track {
+  background: #edece9;
+}

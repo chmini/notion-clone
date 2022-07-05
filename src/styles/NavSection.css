@@ -1,0 +1,11 @@
+.NavSection {
+  min-width: 285px;
+  max-width: 285px;
+  background-color: #f7f6f3;
+  color: #6c6a65;
+}
+
+.Navbar {
+  max-height: 90vh;
+  overflow: hidden auto;
+}
